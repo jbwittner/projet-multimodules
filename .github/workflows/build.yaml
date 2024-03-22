@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   moduleAcheck:
-    name: Build and analyze
+    name: moduleAcheck
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,7 +25,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
   moduleBcheck:
-    name: Build and analyze
+    name: moduleBcheck
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -43,7 +43,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
   moduleCcheck:
-    name: Build and analyze
+    name: moduleCcheck
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -61,9 +61,9 @@ jobs:
         working-directory: moduleB
         run: mvn clean install
       - name: Build and analyze
+        working-directory: moduleC
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: |
-          cd moduleC
+        run: 
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
