@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/home/jbwittner/.sdkman/candidates/java/21.0.2-zulu/lib"/>
-    <property name="sun.java.command" value="/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire/surefirebooter-20240322171128311_9.jar /home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire 2024-03-22T17-11-27_093-jvmRun1 surefire-20240322171128311_7tmp surefire_2-20240322171128311_8tmp"/>
+    <property name="sun.java.command" value="/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire/surefirebooter-20240322224035863_9.jar /home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire 2024-03-22T22-40-34_855-jvmRun1 surefire-20240322224035863_7tmp surefire_2-20240322224035863_8tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/test-classes:/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/classes:/home/jbwittner/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleA/target/moduleA-1.0-SNAPSHOT.jar:/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleB/target/moduleB-1.0-SNAPSHOT.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire/surefirebooter-20240322171128311_9.jar"/>
+    <property name="surefire.real.class.path" value="/home/jbwittner/workspace/test_multi_module_java/projet-multimodules/moduleC/target/surefire/surefirebooter-20240322224035863_9.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS"/>
     <property name="user.name" value="jbwittner"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="com.votreentreprise.AppTest" time="0.003"/>
+  <testcase name="testApp" classname="com.votreentreprise.AppTest" time="0.002"/>
 </testsuite>

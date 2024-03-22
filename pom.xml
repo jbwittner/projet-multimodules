@@ -29,7 +29,10 @@
   
   <url>http://maven.apache.org</url>
         
-  
+    <properties>
+  <sonar.organization>jbwittner</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   
   <dependencies>
                 

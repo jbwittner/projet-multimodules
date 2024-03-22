@@ -11,6 +11,10 @@
   <artifactId>moduleB</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>moduleB</name>
+      <properties>
+  <sonar.projectKey>jbwittner_projet-multimodules_bb</sonar.projectKey>
+</properties>
+
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>

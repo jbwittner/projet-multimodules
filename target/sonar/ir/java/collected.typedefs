@@ -1,0 +1,14 @@
+”
+com.votreentreprise.App+
+<init>!com.votreentreprise.App#<init>()V:
+main2com.votreentreprise.App#main([Ljava/lang/String;)Vjava.lang.Object\
+com.votreentreprise.UserB-
+<init>#com.votreentreprise.UserB#<init>()Vjava.lang.Object”
+com.votreentreprise.App+
+<init>!com.votreentreprise.App#<init>()V:
+main2com.votreentreprise.App#main([Ljava/lang/String;)Vjava.lang.Object\
+com.votreentreprise.UserA-
+<init>#com.votreentreprise.UserA#<init>()Vjava.lang.Object”
+com.votreentreprise.App+
+<init>!com.votreentreprise.App#<init>()V:
+main2com.votreentreprise.App#main([Ljava/lang/String;)Vjava.lang.Object

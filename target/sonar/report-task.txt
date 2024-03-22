@@ -1,0 +1,7 @@
+organization=jbwittner
+projectKey=com.votreentreprise:projet-multimodules
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.53470
+dashboardUrl=https://sonarcloud.io/dashboard?id=com.votreentreprise%3Aprojet-multimodules
+ceTaskId=AY5oMBDwH7pPtZAyD8tB
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY5oMBDwH7pPtZAyD8tB
