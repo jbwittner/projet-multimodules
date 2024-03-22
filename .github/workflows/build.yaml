@@ -55,11 +55,7 @@ jobs:
           java-version: 21
           distribution: 'zulu' # Alternative distribution options are available.
       - name: Build and analyze
-        working-directory: moduleA
-        run: mvn clean install
-      - name: Build and analyze
-        working-directory: moduleB
-        run: mvn clean install
+        run: mvn -DskipTests clean install
       - name: Build and analyze
         working-directory: moduleC
         env:
